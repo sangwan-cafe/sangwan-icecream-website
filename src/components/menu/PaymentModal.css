@@ -1,0 +1,64 @@
+.payment-modal{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.payment-box{
+    width:380px;
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.2);
+}
+
+.payment-box h2{
+    color:#ff4f8b;
+    margin-bottom:20px;
+}
+
+.payment-qr{
+    width:220px;
+    height:220px;
+    object-fit:contain;
+    margin:20px auto;
+}
+
+.payment-box h3{
+    margin:15px 0;
+    color:#222;
+}
+
+.payment-box p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.paid-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#28a745;
+    color:#fff;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:12px;
+}
+
+.close-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#dc3545;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+}

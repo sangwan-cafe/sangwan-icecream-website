@@ -1,0 +1,55 @@
+/* ===========================
+   STATS SECTION
+=========================== */
+
+.stats{
+    padding:80px 8%;
+    background:#fff;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.stat-card{
+    background:#ffffff;
+    border-radius:22px;
+    padding:40px 20px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.35s;
+    border:2px solid #ffe4ef;
+}
+
+.stat-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 45px rgba(255,79,139,.20);
+}
+
+.stat-card h2{
+    font-size:48px;
+    color:#ff4f8b;
+    margin-bottom:10px;
+    font-weight:800;
+}
+
+.stat-card p{
+    color:#666;
+    font-size:18px;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+.stats{
+    padding:60px 20px;
+}
+
+.stat-card h2{
+    font-size:38px;
+}
+
+.stat-card p{
+    font-size:16px;
+}
+
+}
